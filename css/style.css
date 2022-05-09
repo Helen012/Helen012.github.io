@@ -1,0 +1,73 @@
+
+*{text-decoration: none;
+font-family: 'Source Sans Pro', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.flex-basis{
+    display: flex;
+     border:  1.5em;
+     text-align: center;
+
+}
+.b30{
+    flex-basis: 30%;
+
+}
+
+.b20{background-color: brown;
+    flex-basis: 20%;
+}
+.b10{background-color: brown;
+    flex-basis: 10%;
+}
+
+.grow{
+    display: flex;
+    
+}
+.grow .centro{
+    flex-grow: 4;
+
+}
+
+.contenedor_item{
+    border: 0.1em solid brown;
+    padding: 1em;
+    display: flex;
+    margin: 1em;
+
+}
+.flex-direction{
+    display: flex;
+}
+
+.img{
+   order: 3;
+    padding: 1.5em;}
+
+.pie {
+        background-color: brown;
+        margin: 1.5em;
+        text-align: center;
+    }
+    
+.pie h4 {
+        font-size: 20px;
+    }
+    
+.hiper{
+        text-align: center;
+        margin-top: 1em;
+        
+    }
+     
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+   
+   .container{
+       flex-direction: column;
+       width: 80%;
+   }    
